@@ -1,0 +1,98 @@
+.main-div {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../images/background.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.game {
+  text-align: center;
+  padding: 20px 50px 20px 50px;
+  height: max-content;
+  width: max-content;
+  background-color: transparent;
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border: 1px solid gray;
+}
+
+.player1input {
+  border-radius: 8px;
+  height: 35px;
+  width: 300px;
+  box-shadow: 1px 3px rgba(0, 0, 0, 0.3);
+  background-color: transparent;
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+  padding-left: 5px;
+  outline: none;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+.player2input {
+  border-radius: 8px;
+  height: 35px;
+  width: 300px;
+  box-shadow: 1px 3px rgba(0, 0, 0, 0.3);
+  background-color: transparent;
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+  padding-left: 5px;
+  outline: none;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.player1button {
+  padding: 7px 15px 7px 15px;
+  margin-left: 10px;
+  font-weight: 700;
+  font-size: 22px;
+  background-color: #28544b;
+  color: white;
+  border-radius: 5px;
+  border: 1px;
+  box-shadow: 2px 3px rgba(0, 0, 0, 0.3);
+}
+.reload {
+  padding: 7px 15px 7px 15px;
+  margin-left: 10px;
+  font-weight: 700;
+  font-size: 22px;
+  background-color: #28544b;
+  color: white;
+  border-radius: 5px;
+  border: 1px;
+  box-shadow: 2px 3px rgba(0, 0, 0, 0.3);
+}
+.player2button {
+  padding: 7px 15px 7px 15px;
+  margin-left: 10px;
+  font-weight: 700;
+  font-size: 22px;
+  background-color: #28544b;
+  color: white;
+  border-radius: 5px;
+  border: 1px;
+  box-shadow: 2px 3px rgba(0, 0, 0, 0.3);
+}
+
+.title {
+  color: #f3f3f3;
+  font-weight: 700;
+  font-size: 40px;
+}
+h3 {
+  color: #f3f3f3;
+  font-weight: 600;
+  font-size: 30px;
+}
+.rule {
+  color: #f3f3f3;
+  font-weight: 600;
+  font-size: 25px;
+}

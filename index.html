@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Document</title>
+    <style>
+      .player2input,
+      .player2button,
+      .player2error,
+      .reload {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main-div">
+      <div class="game">
+        <h1 class="title">Number Gussing game</h1>
+
+        <h3>Player One</h3>
+
+        <h4 class="rule">Give a number less than 10.</h4>
+
+        <!-- <input class="player1input" type="text" /> -->
+        <input id="player1input" class="player1input" type="text" />
+
+        <button class="player1button">Start</button>
+        <h1 class="player1error"></h1>
+
+        <input id="player2input" class="player2input" type="text" />
+        <button class="player2button">Check</button>
+        <h1 class="player2error"></h1>
+        <button onclick="reloadPage()" class="reload">Play Again</button>
+      </div>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
