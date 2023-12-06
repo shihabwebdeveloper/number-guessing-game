@@ -5,8 +5,9 @@
   justify-content: center;
   align-items: center;
   background-image: url("../images/background.jpg");
-  background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .game {
@@ -58,6 +59,7 @@
   border: 1px;
   box-shadow: 2px 3px rgba(0, 0, 0, 0.3);
 }
+
 .reload {
   padding: 7px 15px 7px 15px;
   margin-left: 10px;
@@ -69,6 +71,7 @@
   border: 1px;
   box-shadow: 2px 3px rgba(0, 0, 0, 0.3);
 }
+
 .player2button {
   padding: 7px 15px 7px 15px;
   margin-left: 10px;
@@ -92,6 +95,12 @@ h3 {
   font-size: 30px;
 }
 .rule {
+  color: #f3f3f3;
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.player1error{
   color: #f3f3f3;
   font-weight: 600;
   font-size: 25px;
